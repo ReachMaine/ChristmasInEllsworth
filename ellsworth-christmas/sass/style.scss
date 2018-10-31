@@ -1,0 +1,44 @@
+/*
+Theme Name: ellsworth-christmas
+Description: Oshin Child Theme christmasinellsworth.com
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+
+@import url("../oshin/style.css");
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/oshine";
+// header
+// hide the mobilenav since this is a onepage site.
+#header-wrap {
+	#header-controls-right {
+		display: none;
+	}
+}
+// content
+ul.cie-snowflakes {
+	list-style-type: none;
+	li:before {
+		color: $cie-blue;
+		content:"\e820";
+		font-family: 'icomoon';
+		padding-right: 5px;
+	}
+}
+// footer
+#footer {
+	  background-color: $cie-red!important;
+    a.reach-logo {
+    	color: white;
+    }
+    .reach-logo:before {
+    	content: url('images/reach-favicon.png');
+    	padding: 7px 7px 5px 5px;
+			background-color: white;
+			border-radius: 50%;
+    }
+}
+/* *** keep this at the end *** */
+@import "partials/media";
