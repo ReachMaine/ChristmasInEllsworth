@@ -22,9 +22,10 @@ ul.cie-snowflakes {
 	list-style-type: none;
 	li:before {
 		color: $cie-blue;
-		content:"\e820";
+		//content:"\e820";
 		font-family: 'icomoon';
 		padding-right: 5px;
+		content: url(https://christmasinellsworth.com/wp-content/themes/ellsworth-christmas/images/snowflake-bullet.png);
 	}
 }
 // footer
