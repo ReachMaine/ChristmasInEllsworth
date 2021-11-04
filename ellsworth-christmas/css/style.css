@@ -22,6 +22,9 @@ p:empty {
 
 /* ----------- end typography ----------- */
 /* standard Reach styling of Oshin */
+#header-wrap .logo {
+  padding-right: 25px; }
+
 .be-themes-comments,
 .post-meta.post-comments {
   display: none; }
