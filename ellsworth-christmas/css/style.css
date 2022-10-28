@@ -77,9 +77,9 @@ input[type="submit"] {
 #header-wrap #header-controls-right {
   display: none; }
 
-ul.cie-snowflakes {
+.cie-snowflakes ul {
   list-style-type: none; }
-  ul.cie-snowflakes li:before {
+  .cie-snowflakes ul li:before {
     color: #00aeef;
     font-family: 'icomoon';
     padding-right: 5px;
@@ -106,3 +106,5 @@ ul.cie-snowflakes {
 @media only screen and (max-width: 425px) {
   #hero-section .header-hero-custom-section .hero-section-wrap.be-section {
     height: 350px !important; } }
+
+/*# sourceMappingURL=style.css.map */
